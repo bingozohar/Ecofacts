@@ -7,18 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D769ED1929E4A8D6004B1B20 /* Ecofacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D769ED1729E4A8D6004B1B20 /* Ecofacts.xcdatamodeld */; };
+		D769ED2329E4B293004B1B20 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769ED2229E4B293004B1B20 /* DataController.swift */; };
 		D79729FD29DDB2C500A42658 /* EcofactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79729FC29DDB2C500A42658 /* EcofactsApp.swift */; };
-		D79729FF29DDB2C500A42658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79729FE29DDB2C500A42658 /* ContentView.swift */; };
+		D79729FF29DDB2C500A42658 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79729FE29DDB2C500A42658 /* MainView.swift */; };
 		D7972A0129DDB2C600A42658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7972A0029DDB2C600A42658 /* Assets.xcassets */; };
 		D7972A0429DDB2C600A42658 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7972A0329DDB2C600A42658 /* Preview Assets.xcassets */; };
+		D7972A0C29DDB34C00A42658 /* EcofactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A0B29DDB34C00A42658 /* EcofactModel.swift */; };
+		D7972A1029DDBBC100A42658 /* EcofactStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A0F29DDBBC100A42658 /* EcofactStore.swift */; };
+		D7972A1229DDC08900A42658 /* TopicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A1129DDC08900A42658 /* TopicCardView.swift */; };
+		D7972A1429DDC22700A42658 /* TopicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A1329DDC22700A42658 /* TopicDetailView.swift */; };
+		D7972A1629DDC5E200A42658 /* TopicEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A1529DDC5E200A42658 /* TopicEditView.swift */; };
+		D7972A1929DDE97200A42658 /* StatementEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A1829DDE97200A42658 /* StatementEditView.swift */; };
+		D7972A1D29E0687100A42658 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A1C29E0687100A42658 /* AddButtonView.swift */; };
+		D7972A2829E2C6DC00A42658 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7972A2729E2C6DC00A42658 /* UniformTypeIdentifiers.framework */; };
+		D7972A2B29E2C6DC00A42658 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7972A2A29E2C6DC00A42658 /* Media.xcassets */; };
+		D7972A2D29E2C6DC00A42658 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A2C29E2C6DC00A42658 /* ActionViewController.swift */; };
+		D7972A3029E2C6DC00A42658 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7972A2E29E2C6DC00A42658 /* MainInterface.storyboard */; };
+		D7972A3429E2C6DC00A42658 /* Copyfact.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D7972A2529E2C6DC00A42658 /* Copyfact.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7972A3A29E2C9A900A42658 /* Copyfact.js in Resources */ = {isa = PBXBuildFile; fileRef = D7972A3929E2C9A900A42658 /* Copyfact.js */; };
+		D7972A3C29E2DE2700A42658 /* EcofactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A0B29DDB34C00A42658 /* EcofactModel.swift */; };
+		D7972A3D29E2DE2900A42658 /* EcofactStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7972A0F29DDBBC100A42658 /* EcofactStore.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D7972A3229E2C6DC00A42658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79729F129DDB2C400A42658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7972A2429E2C6DC00A42658;
+			remoteInfo = Copyfact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7972A3829E2C6DC00A42658 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7972A3429E2C6DC00A42658 /* Copyfact.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D769ED1829E4A8D6004B1B20 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D769ED2229E4B293004B1B20 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		D79729F929DDB2C500A42658 /* Ecofacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecofacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79729FC29DDB2C500A42658 /* EcofactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcofactsApp.swift; sourceTree = "<group>"; };
-		D79729FE29DDB2C500A42658 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D79729FE29DDB2C500A42658 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D7972A0029DDB2C600A42658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7972A0329DDB2C600A42658 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7972A0B29DDB34C00A42658 /* EcofactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcofactModel.swift; sourceTree = "<group>"; };
+		D7972A0F29DDBBC100A42658 /* EcofactStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcofactStore.swift; sourceTree = "<group>"; };
+		D7972A1129DDC08900A42658 /* TopicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCardView.swift; sourceTree = "<group>"; };
+		D7972A1329DDC22700A42658 /* TopicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicDetailView.swift; sourceTree = "<group>"; };
+		D7972A1529DDC5E200A42658 /* TopicEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicEditView.swift; sourceTree = "<group>"; };
+		D7972A1729DDCBBF00A42658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D7972A1829DDE97200A42658 /* StatementEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementEditView.swift; sourceTree = "<group>"; };
+		D7972A1C29E0687100A42658 /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		D7972A2029E19DA800A42658 /* Ecofacts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ecofacts.entitlements; sourceTree = "<group>"; };
+		D7972A2529E2C6DC00A42658 /* Copyfact.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Copyfact.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7972A2729E2C6DC00A42658 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		D7972A2A29E2C6DC00A42658 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		D7972A2C29E2C6DC00A42658 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		D7972A2F29E2C6DC00A42658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D7972A3129E2C6DC00A42658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7972A3929E2C9A900A42658 /* Copyfact.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Copyfact.js; sourceTree = "<group>"; };
+		D7972A3B29E2DE0A00A42658 /* Copyfact.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Copyfact.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +89,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7972A2229E2C6DC00A42658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7972A2829E2C6DC00A42658 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				D79729FB29DDB2C500A42658 /* Ecofacts */,
+				D7972A2929E2C6DC00A42658 /* Copyfact */,
+				D7972A2629E2C6DC00A42658 /* Frameworks */,
 				D79729FA29DDB2C500A42658 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				D79729F929DDB2C500A42658 /* Ecofacts.app */,
+				D7972A2529E2C6DC00A42658 /* Copyfact.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +122,18 @@
 		D79729FB29DDB2C500A42658 /* Ecofacts */ = {
 			isa = PBXGroup;
 			children = (
+				D7972A0A29DDB30900A42658 /* Model */,
+				D7972A1C29E0687100A42658 /* AddButtonView.swift */,
 				D79729FC29DDB2C500A42658 /* EcofactsApp.swift */,
-				D79729FE29DDB2C500A42658 /* ContentView.swift */,
+				D79729FE29DDB2C500A42658 /* MainView.swift */,
+				D7972A1829DDE97200A42658 /* StatementEditView.swift */,
+				D7972A1129DDC08900A42658 /* TopicCardView.swift */,
+				D7972A1329DDC22700A42658 /* TopicDetailView.swift */,
+				D7972A1529DDC5E200A42658 /* TopicEditView.swift */,
+				D7972A2029E19DA800A42658 /* Ecofacts.entitlements */,
 				D7972A0029DDB2C600A42658 /* Assets.xcassets */,
+				D769ED1729E4A8D6004B1B20 /* Ecofacts.xcdatamodeld */,
+				D7972A1729DDCBBF00A42658 /* Info.plist */,
 				D7972A0229DDB2C600A42658 /* Preview Content */,
 			);
 			path = Ecofacts;
@@ -67,6 +147,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D7972A0A29DDB30900A42658 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7972A0B29DDB34C00A42658 /* EcofactModel.swift */,
+				D7972A0F29DDBBC100A42658 /* EcofactStore.swift */,
+				D769ED2229E4B293004B1B20 /* DataController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7972A2629E2C6DC00A42658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7972A2729E2C6DC00A42658 /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7972A2929E2C6DC00A42658 /* Copyfact */ = {
+			isa = PBXGroup;
+			children = (
+				D7972A3B29E2DE0A00A42658 /* Copyfact.entitlements */,
+				D7972A3129E2C6DC00A42658 /* Info.plist */,
+				D7972A2A29E2C6DC00A42658 /* Media.xcassets */,
+				D7972A2C29E2C6DC00A42658 /* ActionViewController.swift */,
+				D7972A2E29E2C6DC00A42658 /* MainInterface.storyboard */,
+				D7972A3929E2C9A900A42658 /* Copyfact.js */,
+			);
+			path = Copyfact;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +188,34 @@
 				D79729F529DDB2C400A42658 /* Sources */,
 				D79729F629DDB2C400A42658 /* Frameworks */,
 				D79729F729DDB2C400A42658 /* Resources */,
+				D7972A3829E2C6DC00A42658 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D7972A3329E2C6DC00A42658 /* PBXTargetDependency */,
 			);
 			name = Ecofacts;
 			productName = Ecofacts;
 			productReference = D79729F929DDB2C500A42658 /* Ecofacts.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D7972A2429E2C6DC00A42658 /* Copyfact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7972A3529E2C6DC00A42658 /* Build configuration list for PBXNativeTarget "Copyfact" */;
+			buildPhases = (
+				D7972A2129E2C6DC00A42658 /* Sources */,
+				D7972A2229E2C6DC00A42658 /* Frameworks */,
+				D7972A2329E2C6DC00A42658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Copyfact;
+			productName = Copyfact;
+			productReference = D7972A2529E2C6DC00A42658 /* Copyfact.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +228,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					D79729F829DDB2C400A42658 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D7972A2429E2C6DC00A42658 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -116,6 +249,7 @@
 			projectRoot = "";
 			targets = (
 				D79729F829DDB2C400A42658 /* Ecofacts */,
+				D7972A2429E2C6DC00A42658 /* Copyfact */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +264,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7972A2329E2C6DC00A42658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7972A3A29E2C9A900A42658 /* Copyfact.js in Resources */,
+				D7972A2B29E2C6DC00A42658 /* Media.xcassets in Resources */,
+				D7972A3029E2C6DC00A42658 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +281,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79729FF29DDB2C500A42658 /* ContentView.swift in Sources */,
+				D7972A1929DDE97200A42658 /* StatementEditView.swift in Sources */,
+				D79729FF29DDB2C500A42658 /* MainView.swift in Sources */,
+				D7972A1429DDC22700A42658 /* TopicDetailView.swift in Sources */,
+				D7972A1629DDC5E200A42658 /* TopicEditView.swift in Sources */,
+				D7972A0C29DDB34C00A42658 /* EcofactModel.swift in Sources */,
+				D769ED2329E4B293004B1B20 /* DataController.swift in Sources */,
 				D79729FD29DDB2C500A42658 /* EcofactsApp.swift in Sources */,
+				D7972A1029DDBBC100A42658 /* EcofactStore.swift in Sources */,
+				D769ED1929E4A8D6004B1B20 /* Ecofacts.xcdatamodeld in Sources */,
+				D7972A1D29E0687100A42658 /* AddButtonView.swift in Sources */,
+				D7972A1229DDC08900A42658 /* TopicCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7972A2129E2C6DC00A42658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7972A2D29E2C6DC00A42658 /* ActionViewController.swift in Sources */,
+				D7972A3D29E2DE2900A42658 /* EcofactStore.swift in Sources */,
+				D7972A3C29E2DE2700A42658 /* EcofactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7972A3329E2C6DC00A42658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7972A2429E2C6DC00A42658 /* Copyfact */;
+			targetProxy = D7972A3229E2C6DC00A42658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7972A2E29E2C6DC00A42658 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7972A2F29E2C6DC00A42658 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D7972A0529DDB2C600A42658 /* Debug */ = {
@@ -262,19 +444,22 @@
 		D7972A0829DDB2C600A42658 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ecofacts/Ecofacts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Ecofacts/Preview Content\"";
 				DEVELOPMENT_TEAM = S925RQEG9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Ecofacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,19 +476,22 @@
 		D7972A0929DDB2C600A42658 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ecofacts/Ecofacts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Ecofacts/Preview Content\"";
 				DEVELOPMENT_TEAM = S925RQEG9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Ecofacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +499,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = u14e5.Ecofacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7972A3629E2C6DC00A42658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Copyfact/Copyfact.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S925RQEG9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Copyfact/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Copyfact;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = u14e5.Ecofacts.Copyfact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7972A3729E2C6DC00A42658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Copyfact/Copyfact.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S925RQEG9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Copyfact/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Copyfact;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = u14e5.Ecofacts.Copyfact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +580,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D7972A3529E2C6DC00A42658 /* Build configuration list for PBXNativeTarget "Copyfact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7972A3629E2C6DC00A42658 /* Debug */,
+				D7972A3729E2C6DC00A42658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D769ED1729E4A8D6004B1B20 /* Ecofacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D769ED1829E4A8D6004B1B20 /* Model.xcdatamodel */,
+			);
+			currentVersion = D769ED1829E4A8D6004B1B20 /* Model.xcdatamodel */;
+			path = Ecofacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D79729F129DDB2C400A42658 /* Project object */;
 }
